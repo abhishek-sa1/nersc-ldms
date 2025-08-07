@@ -247,11 +247,6 @@ class LdmsdManager:
             "config name=hello_sampler producer=${HOSTNAME} instance=${HOSTNAME}/hello_sampler stream=nersc component_id=1",
             "start name=hello_sampler interval=1000000 offset=0"
         ])
-        #cfg.extend([
-        #    "#Send Stream data to OMNI",
-        #    "load name=store_jsondump",
-        #    f"config name=store_jsondump container={self.machine_name} stream=nersc buffer=0 system={self.machine_name} host=dae-log-ha-1.nersc.gov port=15145"
-        #])
         with open(out_file, 'w') as fh:
             fh.write('\n'.join(cfg))
             title = "Wrote:"

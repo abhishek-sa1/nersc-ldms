@@ -4,7 +4,7 @@
     "namespace": "telem",
     "imagePullSecretsOption": {
       "imagePullSecrets": [
-          {"name": "registry-nersc-gov-csg"}
+          {"name": "registry-auth-token"}
       ]
     }
   },
