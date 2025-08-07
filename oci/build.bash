@@ -12,7 +12,7 @@ TESTS_DIR="testsd"
 DOCKER_FILE="oci/Dockerfile.bld_n_run.ubuntu24.04"
 NOW="$(date +"%Y%m%dT%H%M")"
 IMG_NAME="ubuntu-ldms"
-IMG_REG_REMOTE="registry.nersc.gov/csg"
+IMG_REG_REMOTE="YOUR_REGISTRY_HERE"
 IMG_REG_CLUSTER="registry.local/nersc"
 echo "VARS:
 SCRIPT_DIR=$SCRIPT_DIR

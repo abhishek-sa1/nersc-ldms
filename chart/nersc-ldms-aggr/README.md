@@ -128,8 +128,6 @@ The Grafan Dashboard Sections:
   * Outstanding updae count rate
   * Oversampling count rate
 
-[LDMS Dashboard](https://grafana-dev.nersc.gov/goto/HiGZIl-NR?orgId=2)
-
 
 Kubernetes Objects:
 ---
