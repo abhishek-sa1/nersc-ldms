@@ -30,6 +30,11 @@ Contents
 * LICENSE   -> Modified BSD license
 * README.md -> This file
 
+Pipeline
+---
+
+![Pipeline Diagram](images/ldms_pipline.svg)
+
 Steps
 ---
 
